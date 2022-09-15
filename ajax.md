@@ -98,13 +98,17 @@ isSending = false;
 ```
 
 ## axios
+
 安装与引用
+
 ```js
 
 npm install axios
 <script  crossorigin="anonymous" src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.js"></script>
 ```
+
 get与post
+
 ```js
 //post请求
 axios({
@@ -167,8 +171,3 @@ axios({
     //响应体
     console.log(response.data);
 })
-
-
-
-
-
