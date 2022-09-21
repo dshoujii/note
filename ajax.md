@@ -33,7 +33,7 @@
 
 ``` js
 //打开服务
-node 文件名
+nodemon 文件名
 ```
 
 ## 原生ajax操作
@@ -171,3 +171,9 @@ axios({
     //响应体
     console.log(response.data);
 })
+
+```
+
+## 同源策略
+
+同源：协议，域名，端口号完全相同
